@@ -1,0 +1,206 @@
+@font-face {
+  font-family: 'Source Sans Pro Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro Regular'), local('Source Sans Pro Regular'), url(../font/source-sans-regular.ttf) format('truetype');
+}
+body {
+	width: 100%;
+}
+.main {
+    display: inline-block;
+    width: 100%;
+}
+h2 {
+   font-family: "Open Sans", sans-serif;
+   text-shadow: 0 1px 0 rgba(19, 74, 70, 0.32);
+   color: #fff;
+   text-align: center;
+   font-size: 16px;
+   text-align: center;
+   margin-top: 75px;
+}
+p {
+   font-size: 32px;
+   line-height: 40px;
+   font-weight: 300;
+   margin: 0px auto;
+   width: 100%;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   font-family: Source Sans Pro Regular;
+   font-size: 24px;
+   font-family: Source Sans Pro Regular, Helvetica, Arial, sans-serif;
+   -webkit-font-smoothing: antialiased;
+   text-align: center;
+}
+ul {
+    list-style: none;
+    display: inline-block;
+
+}
+a {
+   display: inline-block;
+    text-decoration: none;
+    width: 170px;
+    height: 170px;
+}
+li {
+   float: left;
+}
+a:hover {
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.30);
+}
+#bb {
+	background-color: #E6EC00;
+}
+#bmg {
+   background-color: #ff4c23;
+}
+#brazilian {
+   background-color: #ff7919;
+}
+#cef {
+   background-color: #ff9f19;
+}
+#jointvest {
+   background-color: #ebc50c;
+}
+#pan {
+   background-color: #49c8f2;
+}
+#panconsorcios {
+   background-color: #59a6f4;
+}
+#panconsorcios h2, #panseguros h2 {
+   margin-top: 65px;
+}
+#panseguros {
+   background-color: #3097ff;
+}
+#parana {
+   background-color: #9966ff;
+}
+#particular {
+   background-color: #e6d739;
+}
+#previ {
+   background-color: #b174ee;
+}
+#rodobens {
+   background-color: #1ea49d;
+}
+#outro {
+   background-color: #9ada7a;
+}
+#sofisa {
+   background-color: #BCD94A;
+}
+.row {
+  width: 140px;
+  margin: 30px auto;
+}
+.row span {
+  position: relative;
+  display: inline-block;
+  width: 120px;
+  float: left;
+}
+.gate {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  font-family: "Open Sans", sans;
+  font-weight: 400;
+  color: #377D6A;
+  background: #efefef;
+  border: 0;
+  border-radius: 3px;
+  outline: 0;
+  text-indent: 68px;
+  transition: all .3s ease-in-out;
+}
+.gate::-webkit-input-placeholder {
+  color: #efefef;
+  text-indent: 0;
+  font-weight: 300;
+}
+.gate + label {
+  display: inline-block;
+  position: absolute;
+   font-family: "Open Sans", sans-serif;
+  top: 0;
+  left: 0;
+  color: #fff;
+  padding: 7px 15px 10px 15px;
+  text-shadow: 0 1px 0 rgba(19, 74, 70, 0.4);
+  background: #7AB893;
+  transition: all .4s ease-in-out;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  transform-origin: left bottom;
+  z-index: 99;
+}
+.gate + label:before, .gate + label:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 3px;
+  background: #377D6A;
+  transform-origin: left bottom;
+  transition: all .4s ease-in-out;
+  pointer-events: none;
+  z-index: -1;
+}
+.gate + label:before {
+  background: rgba(3, 36, 41, 0.2);
+  z-index: -2;
+  right: 20%;
+}
+
+.gate:focus,
+.gate:active {
+  color: #377D6A;
+  text-indent: 15px;
+  background: #fff;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.gate:focus::-webkit-input-placeholder,
+.gate:active::-webkit-input-placeholder {
+  color: #aaa;
+}
+.gate:focus + label,
+.gate:active + label {
+  transform: rotate(-66deg);
+  border-radius: 3px;
+}
+.gate:focus + label:before,
+.gate:active + label:before {
+  transform: rotate(10deg);
+}
+.avancar {
+  width: 140px;
+  display: inline-block;
+  position: absolute;
+   font-family: "Open Sans", sans-serif;
+  top: 0;
+  left: 0;
+  color: #fff;
+  text-indent: 0;
+  padding: 10px 10px 10px 10px;
+  text-shadow: 0 1px 0 rgba(19, 74, 70, 0.4);
+  background: #377D6A;
+  z-index: 99;
+  margin: 50px auto;
+  cursor: pointer;
+    display: inline-block;
+  font-weight: 400;
+  border: 0;
+  border-radius: 3px;
+  outline: 0;
+  transition: all .3s ease-in-out;
+}

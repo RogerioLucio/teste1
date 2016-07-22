@@ -1,0 +1,393 @@
+body {
+	background-color: #ffffff;
+	font-family: "Roboto";
+	font-size: 13px;
+}
+@font-face {
+	font-family: "Roboto";
+	src: url("../font/roboto-regular.ttf");
+}
+@font-face {
+	font-family: "Roboto-Light";
+	src: url("../font/roboto-light.ttf");
+}
+@font-face {
+  font-family: 'Source Sans Pro Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro Regular'), local('Source Sans Pro Regular'), url(../font/source-sans-regular.ttf) format('truetype');
+}
+.conteiner {
+	width: 540px;
+	margin: 60px auto;
+}
+.col1 label {
+	margin-left: 10px;
+	display: inline-block;
+	width: 120px
+}
+.col2 label {
+	margin-left: 25px;
+	display: inline-block;
+	width: 90px
+}
+.dados input[type="radio"] {
+	margin-top: 12px;
+	margin-left: 5px;
+	width: 20px;
+}
+.ultima {
+	margin-bottom: 10px
+}
+.dados select {
+	margin-top: 12px;
+	width: 120px;
+}
+.dados input {
+	margin-top: 12px;
+	width: 120px
+}
+.endereco label {
+	margin-left: 10px;
+	display: inline-block;
+	width: 120px
+}
+.col1 {
+	width: 50%;
+	float: left
+}
+.col2 {
+	width: 49%;
+	float: right
+}
+.docs .col2 {
+   width: 39%;
+}
+.docs .col1 {
+	width: 60%;
+	float: left
+}
+fieldset
+{
+    border-radius: 5px;
+    margin: 25px 0px;
+    border-style: dotted;
+}
+#constid fieldset {
+	margin-bottom: 15px;
+
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.coluna1 {
+   margin-top: 5px;
+   display: block;
+   width: 115px;
+   float: left;
+}
+.coluna2 {
+   margin-top: 5px;
+   margin-left: 10px;
+   display: block;
+   width: 70px;
+   float: left;
+}
+#mt input {
+   margin-top: 4px;
+   width: 100px;
+}
+#mt button {
+	margin-top: 5px;
+	width: 100px;
+}
+#mtuf {
+   width: 100px;
+}
+#mt select {
+   margin-top: 4px;
+   width: 60px;
+}
+#mt label {
+   display: inline-block;
+   width: 36px;
+}
+#mt {
+   display: none;
+   margin-left: 5px;
+}
+.docs fieldset{
+	width: 195px;
+   float: left;
+   height: 165px;
+	margin: 0px;
+	margin-bottom: 15px;
+}
+.iptu {
+   display: none;
+}
+.iptu input {
+   margin-top: 4px;
+   width: 100px;
+   margin-left: 5px;
+}
+.footer {
+   width: 150px;
+   height: 30px;
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+}
+.footer a {
+   box-shadow: 0px 0px 25px 0px rgba(0,0,0,.4);
+   text-decoration: none;
+   color: #ffffff;
+   display: block;
+   height: 100%;
+   float: left;
+   text-align: center;
+   width: 100%;
+   text-transform: uppercase;
+   font: 400 12px/18px Roboto;
+   line-height: 30px;
+}
+.esq {
+   background-color: #f74242;
+   border-radius: 5px 0px 0px 0px;
+}
+.dir {
+   background-color: #20ab52;
+   border-radius: 5px 5px 5px 5px;
+}
+.esq:hover {
+   background-color: #d43636;
+}
+.dir:hover {
+   background-color: #147e3c;
+}
+label {
+   font-family: Roboto-Light;
+   font-size: 14px;
+}
+legend {
+   font: 400 11.5px/18px Roboto;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 5px 5px 5px 5px;
+	padding: 1px 15px 1px 15px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.dados fieldset {
+	border-color: #7cc79a;
+	border-style: dotted;
+}
+.dados legend {
+	background-color: #7cc79a;
+	border-radius: 5px 5px 5px 5px;
+	padding: 1px 15px 1px 15px;
+}
+.endereco fieldset {
+	border-color: #7cc79a;
+}
+.endereco legend {
+	background-color: #7cc79a;
+	border-radius: 5px 5px 5px 5px;
+	padding: 1px 15px 1px 15px;
+}
+.docs fieldset {
+	border-color: #7cc79a;
+}
+.docs legend {
+	background-color: #7cc79a;
+	border-radius: 5px 5px 5px 5px;
+	padding: 1px 15px 1px 15px;
+}
+.terreno fieldset {
+	border-color: #7cc79a;
+}
+.terreno legend {
+	background-color: #7cc79a;
+	border-radius: 5px 5px 5px 5px;
+	padding: 1px 15px 1px 15px;
+}
+.apto legend {
+	background-color: #7cc79a;
+	border-radius: 5px 5px 5px 5px;
+	padding: 1px 15px 1px 15px;
+}
+#constid fieldset {
+	border-color: #7cc79a;
+	margin-top: 15px;
+	height: 80px;
+}
+#constid legend {
+	background-color: #7cc79a;
+}
+.col2 input[type="checkbox"] {
+   width: 16px;
+	margin-left: 10px;
+	margin-top: 10px;
+   height: 16px;
+   vertical-align: bottom;
+	display: inline-block;
+}
+.app {
+	margin-left: 5px;
+}
+.apto {
+	float: right;
+}
+.obs legend {
+	background-color: #7cc79a;
+	border-radius: 5px 5px 5px 5px;
+	padding: 1px 15px 1px 15px;
+}
+.obs fieldset {
+	border-color: #7cc79a;
+}
+.obs textarea {
+	width: 100%;
+	background-color:transparent;
+	height: 60px;
+   border: 0px solid;
+}
+.obs textarea:focus {
+    outline:none;
+}
+.input {
+	width: 60px;
+}
+table, .const, .terreno, #convCond, #condOn, #vagaAutonoma{
+	display: none;
+}
+#aptoid fieldset {
+	border-color: #7cc79a;
+	margin: 0px;
+}
+#aptoid legend {
+	background-color: #7cc79a;
+}
+#obs {
+	clear: left;
+	margin-bottom: 80px;
+}
+#obs {
+	margin-top: 25px;
+}
+input, select, label {
+	font: 13px Roboto;
+}
+.sac {
+	position: fixed;
+	font: 400 11.5px/18px Roboto;
+	text-transform: uppercase;
+	color: #fff;
+	right: 0px;
+	top: 0px;
+	line-height: 28px;
+	text-align: center;
+	width: 85px;
+	background-color: #3675d4;
+	box-shadow: -2px 2px 20px rgba(0,0,0,.4);
+	text-decoration: none;
+}
+.sac a {
+	position: fixed;
+	font: 400 11.5px/18px Roboto;
+	text-transform: uppercase;
+	color: #fff;
+	right: 0px;
+	top: 0px;
+	line-height: 28px;
+	text-align: center;
+	width: 85px;
+	background-color: #3675d4;
+	box-shadow: -2px 2px 20px rgba(0,0,0,.4);
+	text-decoration: none;
+}
+#map {
+  width: 99.5%;
+  right: 100000px;
+  height: 300px;
+  margin-bottom: 15px;
+  border: 2px solid #7cc79a;
+  border-radius: 5px;
+}
+#docs1 {
+	margin-top: -315px;
+}
+#nUnid {
+	margin-left: 5px;
+	width: 43px;
+}
+#labelnUnid {
+	margin-left: 15px;
+	width: 55px;
+}
+.bl {
+	float: right;
+	margin-right: 12px;
+	margin-top: -35px;
+}
+.bl label{
+	width: 40px;
+	margin-right: 10px;
+}
+.bl input {
+	width: 48px;
+}
+#labelDir1, #labelDir2 {
+	width: 25px;
+	margin-left: 30px;
+	display: inline-block;
+}
+.topmenu {
+	display: inline-block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #609475;
+	box-shadow: 10px 0px 20px rgba(0,0,0,.4);
+}
+.topmenu a{
+	display: inline-block;
+	float: left;
+	width: 130px;
+	color: #d6d5d5;
+	text-align: center;
+	margin-left: 30px;
+	padding: 8px 0px 5px 0px;
+	font-family: Roboto-Light;
+	text-transform: uppercase;
+	font-size: 13px;
+	text-shadow: 0 2px 0 rgba(19, 74, 70, 0.4);
+	cursor: pointer;
+	background: #609475;
+	border-bottom: 2px solid #ff4f4f;
+	text-decoration: none;
+}
+form {
+	margin-top: 50px;
+}
+.corpo{
+	margin-top: 60px;
+}
+#semvistoria {
+	display: block;
+    font-weight: 300;
+    margin: 200px auto;
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-family: Source Sans Pro Regular, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    color: #4A4A4A;
+}
+#vistoria_doc{
+	display: block;
+}
